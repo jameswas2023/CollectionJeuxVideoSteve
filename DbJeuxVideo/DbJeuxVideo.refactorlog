@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="12cadfa4-1998-48f8-99ef-d218dd7092ee" ChangeDateTime="08/24/2023 09:04:03">
+    <Property Name="ElementName" Value="[dbo].[Jeux].[Titre]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Jeux]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="titre" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cb88ba4e-6423-4c03-b8f1-bc0c9bd526e9" ChangeDateTime="08/24/2023 09:14:17">
+    <Property Name="ElementName" Value="[dbo].[Jeux].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Jeux]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="jeuxID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2ed44ff6-2a6f-444e-846b-8e49c3eeab45" ChangeDateTime="08/24/2023 09:24:52">
+    <Property Name="ElementName" Value="[dbo].[Categorie].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Categorie]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="categoirID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="dfba9fea-f412-49f8-91c0-0f26007dd6bd" ChangeDateTime="08/24/2023 09:30:07">
+    <Property Name="ElementName" Value="[dbo].[JeuxCategories].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[JeuxCategories]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="jeuxID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e7c356ce-c183-4468-97e2-4b8ebaa037d3" ChangeDateTime="08/24/2023 09:33:16">
+    <Property Name="ElementName" Value="[dbo].[Categorie].[categoirID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Categorie]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="categorieID" />
+  </Operation>
+</Operations>
